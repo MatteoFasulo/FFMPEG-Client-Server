@@ -1,4 +1,0 @@
-Py di stream:
-    -Memorizza key e link servizio streaming
-    -fa selezionare all'utente il file da streammare che sta nel server
-
