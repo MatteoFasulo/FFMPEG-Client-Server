@@ -17,7 +17,7 @@
 
 `<link>` :<https://github.com/MatteoFasulo/Calcolatori/blob/main/server_lastest.py>
 
-[Os][https://docs.python.org/3/library/os.html] [Os]
+[https://docs.python.org/3/library/os.html] [Os]
 [https://docs.python.org/3/library/time.html] [Time]
 [https://pypi.org/project/tqdm/] [Tqdm]
 [https://docs.python.org/3/library/socket.html] [Socket]
