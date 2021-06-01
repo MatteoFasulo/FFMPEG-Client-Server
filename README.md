@@ -17,19 +17,20 @@
 
 `<link>` :<https://github.com/MatteoFasulo/Calcolatori/blob/main/server_lastest.py>
 
-[https://docs.python.org/3/library/os.html] [Os]
-[https://docs.python.org/3/library/time.html] [Time]
-[https://pypi.org/project/tqdm/] [Tqdm]
-[https://docs.python.org/3/library/socket.html] [Socket]
-[https://docs.python.org/3/library/subprocess.html] [Subprocess]
-[https://docs.python.org/3/library/threading.html] [Threading]
-[https://docs.python.org/3/library/json.html] [Json]
-[https://docs.python.org/3/library/argparse.html] [Argparse]
-[https://docs.python.org/3/library/tkinter.html] [Tkinter]
-[https://pythonbasics.org/tkinter-filedialog/] [tkinter.filedialog]
-[https://www.pythontutorial.net/tkinter/tkinter-open-file-dialog/] [askopenfilename]
-[https://docs.python.org/3/library/configparser.html] [Configparser]
-[https://pypi.org/project/websocket-client/] [Client_latest]
+| Source Links | Name                    |
+| ------------- | ------------------------------ |
+| https://docs.python.org/3/library/os.html | **Os**|
+| https://docs.python.org/3/library/time.html | **Time**|
+| https://pypi.org/project/tqdm/ | **Tqdm**|
+| https://docs.python.org/3/library/socket.html | **Socket**|
+| https://docs.python.org/3/library/subprocess.html | **Subprocess**|
+| https://docs.python.org/3/library/threading.html | **Threading**|
+| https://docs.python.org/3/library/json.html | **Json**|
+| https://docs.python.org/3/library/argparse.html | **Argparse**|
+| https://docs.python.org/3/library/tkinter.html | **Tkinter**|
+| https://www.pythontutorial.net/tkinter/tkinter-open-file-dialog/ | **askopenfilename**|
+| https://docs.python.org/3/library/configparser.html | **Configparser**|
+| https://pypi.org/project/websocket-client/ | **Client_latest**|
 #*Dependencies*
 ##*Python3*
 - OS
