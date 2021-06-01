@@ -31,7 +31,10 @@
 
 ---
 #*Dependencies*
-##*Python3*
+
+---
+
+[Python3]
 - OS
 | import os  |
 
@@ -69,7 +72,9 @@
 | import client_latest  |
 
 #*Installation*
+
 ---
+
 ####*Python*
 
 ```
@@ -101,11 +106,13 @@
 | `def chose_socket(key)`   | ****|
 | `def parse_args()`      | ****|
 | `def main()`   | ****|
+
 ----
 
 ###*End*
 
 
+[Python3]: <https://www.python.org/downloads/release/python-390/>
 [OS]: <https://docs.python.org/3/library/os.html>
 [Time]: <https://docs.python.org/3/library/time.html> 
 [Tqdm]: <https://pypi.org/project/tqdm/>
