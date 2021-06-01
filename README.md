@@ -19,15 +19,15 @@
 
 | Name | Description |
 | ------------- | ------------------------------ |
-| [OS] | LA DESCRIZIONE DI OS
-| [Time] |
-| [Tqdm]|
-| [Socket] |
-| [Subprocess] |
-| [Threading] |
-| [Json] |
-| [Tkinter] |
-| [Configparser] |
+| [OS] | Used for miscellaneous operating system operations
+| [Time] | Time is a package that implements time in python script
+| [Tqdm]| Instantly make your loops show a smart progress meter - just wrap any iterable with tqdm(iterable)
+| [Socket] | This module provides access to the BSD socket interface
+| [Subprocess] | The subprocess module allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes
+| [Threading] | This module constructs higher-level threading interfaces on top of the lower level _thread module
+| [Json] | Json exposes an API familiar to users of the standard library marshal and pickle modules
+| [Tkinter] | The tkinter package (“Tk interface”) is the standard Python interface to the Tk GUI toolkit
+| [Configparser] | Use this to write Python programs which can be customized by end users easily
 
 ---
 #*Dependencies*
