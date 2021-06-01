@@ -20,14 +20,16 @@
 | Name | Description |
 | ------------- | ------------------------------ |
 | [OS] | LA DESCRIZIONE DI OS
-| https://docs.python.org/3/library/time.html [Time] |
-| https://pypi.org/project/tqdm/ [Tqdm]|
-| https://docs.python.org/3/library/socket.html [Socket] |
-| https://docs.python.org/3/library/subprocess.html [Subprocess] |
-| https://docs.python.org/3/library/threading.html [Threading] |
-| https://docs.python.org/3/library/json.html [Json] |
-| https://docs.python.org/3/library/tkinter.html [Tkinter] |
-| https://docs.python.org/3/library/configparser.html [Configparser] |
+| [Time] |
+| [Tqdm]|
+| [Socket] |
+| [Subprocess] |
+| [Threading] |
+| [Json] |
+| [Tkinter] |
+| [Configparser] |
+
+---
 #*Dependencies*
 ##*Python3*
 - OS
