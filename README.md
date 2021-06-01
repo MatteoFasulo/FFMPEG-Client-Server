@@ -2,6 +2,7 @@
 ### *Features*
 
 # *Reti_Di_Calcolatori.md*
+
 ---
 
 **Table of Contents**
@@ -11,6 +12,9 @@
 [TOC]
 
 #*Libraries*
+
+---
+
 ###*Referal Links*
 
 [Links](http://localhost/)
