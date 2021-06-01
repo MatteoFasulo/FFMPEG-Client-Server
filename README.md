@@ -34,7 +34,7 @@
 
 ---
 
-[Python3]
+[Python 3.9.X]
 - OS
 | import os  |
 
