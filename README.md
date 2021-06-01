@@ -17,8 +17,6 @@
 
 ###*Referal Links*
 
-[Links](http://localhost/)
-
 `<link>` :<https://github.com/MatteoFasulo/Calcolatori/blob/main/server_lastest.py>
 
 | Name | Description |
