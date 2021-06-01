@@ -112,7 +112,7 @@
 ###*End*
 
 
-[Python3]: <https://www.python.org/downloads/release/python-390/>
+[Python 3.9.X]: <https://www.python.org/downloads/release/python-390/>
 [OS]: <https://docs.python.org/3/library/os.html>
 [Time]: <https://docs.python.org/3/library/time.html> 
 [Tqdm]: <https://pypi.org/project/tqdm/>
