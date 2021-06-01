@@ -107,11 +107,11 @@
 
 
 [OS]: <https://docs.python.org/3/library/os.html>
-https://docs.python.org/3/library/time.html [Time] 
-https://pypi.org/project/tqdm/ [Tqdm]
-https://docs.python.org/3/library/socket.html [Socket] 
-https://docs.python.org/3/library/subprocess.html [Subprocess] 
-https://docs.python.org/3/library/threading.html [Threading] 
-https://docs.python.org/3/library/json.html [Json] 
-https://docs.python.org/3/library/tkinter.html [Tkinter] 
-https://docs.python.org/3/library/configparser.html [Configparser] 
+[Time]: <https://docs.python.org/3/library/time.html> 
+[Tqdm]: <https://pypi.org/project/tqdm/>
+[Socket]: <https://docs.python.org/3/library/socket.html> 
+[Subprocess]: <https://docs.python.org/3/library/subprocess.html>
+[Threading]: <https://docs.python.org/3/library/threading.html>
+[Json]: <https://docs.python.org/3/library/json.html>
+[Tkinter]: <https://docs.python.org/3/library/tkinter.html> 
+[Configparser]: <https://docs.python.org/3/library/configparser.html>
