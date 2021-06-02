@@ -7,7 +7,7 @@ Il nostro applicativo è un compressore ffmpeg client-server con possibilità di
 
 `<link>` :<https://github.com/MatteoFasulo/Calcolatori/blob/main/server_lastest.py>
 
-# Libraries
+### Libraries
 
 | Name | Description |
 | ------------- | ------------------------------ |
@@ -22,18 +22,18 @@ Il nostro applicativo è un compressore ffmpeg client-server con possibilità di
 | [Configparser] | Use this to write Python programs which can be customized by end users easily
 
 ---
-# Dependencies
+### Dependencies
 
 [Python 3.9.X]
 ---
-# PyPi
+### PyPi
 
 ```sh
 $ pip install tqdm
 ```
 
 ----
-# Functions:                
+### Functions:                
 
 - Server:
          
@@ -62,7 +62,7 @@ $ pip install tqdm
 
 ----
 
-###*End*
+### *End*
 
 
 [Python 3.9.X]: <https://www.python.org/downloads/release/python-390/>
