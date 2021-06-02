@@ -41,19 +41,21 @@ $ pip install tqdm
 
 - Server:
          
-| Function | Description                    |
-| ------------- | ------------------------------ |
-| `def main()`   | **rappresenta la socket TCP principale su cui ogni client si connette prima di essere instradato sulla sua socket personale**|
-| `def assign_socket()`      | **crea una nuova socket prendendo una porta da quelle disponibili nel nostro sistema a coda, notifica il client della porta e chiude la vecchia connessione**|
-| `def release_socket()`   | **chiude la connessione attuale e restituisce la porta al sistema a coda per un nuovo utente**|
-| `def tcp_socket()`      | **instaura una connessione tcp e gestisce tutto il mapping degli argument per eseguire ogni specifica funzione richiesta**|
-| `def encode()`   | **crea una cartella dove mettere tutti i file inviati da un utente e li aggiorna per utente previa registrazione client; crea una cartella dove mettere i file elaborati di un utente e li aggiorna per utente**|
-| `def clear_shadow()`      | **rimuove i file nativi dopo che essi sono stati compressi risparmiando spazio sul server**|
-| `def compress_video()`      | **comprime il video tramite ffmpeg in un sottoprocesso shell**|
+| Function                   | Description                    |
+| -------------------------- | ------------------------------ |
+| `def main()`                        | **rappresenta la socket TCP principale su cui ogni client si connette prima di essere instradato sulla sua socket personale**|
+| `def assign_socket()`               | **crea una nuova socket prendendo una porta disponibile nel nostro sistema a coda, notifica il client e chiude la vecchia connessione**|
+| `def release_socket()`              | **chiude la connessione attuale e restituisce la porta al sistema a coda per un nuovo utente**|
+| `def tcp_socket()`                  | **instaura una connessione tcp e gestisce tutto il mapping degli argument per eseguire ogni specifica funzione richiesta**|
+| `def encode()`                      | **gestisce la compressione video per utenti concorrenti**|
+| `def clear_shadow()`                | **rimuove i file nativi dopo che essi sono stati compressi risparmiando spazio sul server**|
+| `def compress_video()`              | **comprime il video tramite ffmpeg in un sottoprocesso shell**|
+
+----
 
 - Client:
 - 
-- | Function | Description                    |
+| Function      | Description                    |
 | ------------- | ------------------------------ |
 | `def register_user()`   | **fase di registrazione per l'utente**|
 | `def login()`      | **login dell'utente tramite user e password**|
