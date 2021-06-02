@@ -3,10 +3,6 @@
 Il nostro applicativo è un compressore ffmpeg client-server con possibilità di scelta del preset di compressione. Supporta multithreading per encoding concorrenti e permette di eseguire uno streaming su piattaforme RTMP (YouTube e Twitch) previa configurazione di indirizzo e chiave. E' stato creato un sistema di registrazione utente in chiaro per poter indicizzare i file compressi nel server ed eseguire download e/o streaming dei file personali in base al preset scelto nel proprio file di configurazione utente.
 
 
-
-
-# Reti_Di_Calcolatori.md
-
 ###*Referal Links*
 
 `<link>` :<https://github.com/MatteoFasulo/Calcolatori/blob/main/server_lastest.py>
