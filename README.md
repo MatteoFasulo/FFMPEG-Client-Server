@@ -54,7 +54,7 @@ $ pip install tqdm
 ----
 
 - Client:
-- 
+
 | Function      | Description                    |
 | ------------- | ------------------------------ |
 | `def register_user()`   | **fase di registrazione per l'utente**|
