@@ -85,7 +85,6 @@ Il nostro applicativo è un compressore ffmpeg.....
 
 | Function name | Description                    |
 | ------------- | ------------------------------ |
-
 | `def main()`      | **funzione cardine che esegue il programma **|
 | `def main()`   | **mette in ascolto il server sulla porta di defeault; attiva la connessione**|
 | `def assign_socket()`      | **richiesta al client di una nuova porta; mette in ascolto il server con l'IP e chiude l'assign**|
