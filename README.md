@@ -1,27 +1,17 @@
 # Calcolatori
-### *Features*
-Il nostro applicativo è un compressore ffmpeg.....
+### Features
+Il nostro applicativo è un compressore ffmpeg client-server con possibilità di scelta del preset di compressione. Supporta multithreading per encoding concorrenti e permette di eseguire uno streaming su piattaforme RTMP (YouTube e Twitch) previa configurazione di indirizzo e chiave. E' stato creato un sistema di registrazione utente in chiaro per poter indicizzare i file compressi nel server ed eseguire download e/o streaming dei file personali in base al preset scelto nel proprio file di configurazione utente.
 
 
 
 
-# *Reti_Di_Calcolatori.md*
-
----
-
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-#*Libraries*
-
----
+# Reti_Di_Calcolatori.md
 
 ###*Referal Links*
 
 `<link>` :<https://github.com/MatteoFasulo/Calcolatori/blob/main/server_lastest.py>
+
+# Libraries
 
 | Name | Description |
 | ------------- | ------------------------------ |
@@ -36,81 +26,41 @@ Il nostro applicativo è un compressore ffmpeg.....
 | [Configparser] | Use this to write Python programs which can be customized by end users easily
 
 ---
-#*Dependencies*
-
----
+# Dependencies
 
 [Python 3.9.X]
-- OS
-| import os  |
+---
+# PyPi
 
-- Time
-| import time  |
-
-- Tdqm
-| import tqdm |
-
-- Socket
-| import socket |
-
-- Subprocess
-| import subprocess |
-
-- Threading
-| import threading |
-
-- Json
-| import json  |
-
-- Argparse
-| import argparse  |
-
-- Tkinter
-| import TK from tkinter  |
-
-- Tkinter.filedialog
-| import askopenfilename from tkinter.filedialog  |
-
-- Configparser
-| import configparser  |
-
-- Client_latest
-| import client_latest  |
+```sh
+$ pip install tqdm
+```
 
 ----
-                    
-###*Tables*
-- Principal Function:
-                    
+# Functions:                
 
-| Function name | Description                    |
+- Server:
+         
+| Function | Description                    |
 | ------------- | ------------------------------ |
-| `def main()`      | **funzione cardine che esegue il programma **|
-| `def main()`   | **mette in ascolto il server sulla porta di defeault; attiva la connessione**|
-| `def assign_socket()`      | **richiesta al client di una nuova porta; mette in ascolto il server con l'IP e chiude l'assign**|
-| `def release_socket()`   | **chiude la connessione e restituisce la porta**|
-| `def tcp_socket()`      | **instaura una connessione tcp; fa un controllo sullo status della registrazione; scarica il file e chiude la connessione**|
-| `def encode()`   | **crea una cartella dove mettere tutti i file inviati da un IP e li aggiorna per utente non per user previa registrazione client; crea una cartella dove mettere i file elaborati di un IP e li aggiorna per utente non per IP**|
-| `def clear_shadow()`      | **stampa la cartella con il nome del file**|
-| `def calc_filesize()`   | **preso in input il filename e la cartella, restituisce la grandezza del file**|
-| `def compress_video()`      | **presa in input la stringa del filename, la comprime e restituisce il filesize**|
-| `def register_user()`   | **fase di registrazione**|
+| `def main()`   | **rappresenta la socket TCP principale su cui ogni client si connette prima di essere instradato sulla sua socket personale**|
+| `def assign_socket()`      | **crea una nuova socket prendendo una porta da quelle disponibili nel nostro sistema a coda, notifica il client della porta e chiude la vecchia connessione**|
+| `def release_socket()`   | **chiude la connessione attuale e restituisce la porta al sistema a coda per un nuovo utente**|
+| `def tcp_socket()`      | **instaura una connessione tcp e gestisce tutto il mapping degli argument per eseguire ogni specifica funzione richiesta**|
+| `def encode()`   | **crea una cartella dove mettere tutti i file inviati da un utente e li aggiorna per utente previa registrazione client; crea una cartella dove mettere i file elaborati di un utente e li aggiorna per utente**|
+| `def clear_shadow()`      | **rimuove i file nativi dopo che essi sono stati compressi risparmiando spazio sul server**|
+| `def compress_video()`      | **comprime il video tramite ffmpeg in un sottoprocesso shell**|
+
+- Client:
+- 
+- | Function | Description                    |
+| ------------- | ------------------------------ |
+| `def register_user()`   | **fase di registrazione per l'utente**|
 | `def login()`      | **login dell'utente tramite user e password**|
-| `def fetch_port()`   | **è l'equivalente di assign però lato server**|
-| `def connect_to_server()`      | **comunica con assign al fine di connettersi al server**|
-| `def send_file()`   | **ricezione filename, lo scarica e printa un messaggio di avvenuta ricezione del file**|
-| `def list_files()`      | **prende in input la conn. , invia una lista di file e restituisce quest'ultimo**|
+| `def fetch_port()`   | **permette il corretto funzionamento del sistema di assegnazione di socket-porta sul client**|
+| `def send_file()`   | **ricezione del file inviato dal client e stampa un messaggio di avvenuta ricezione del file**|
 | `def stream_specific()`   | **preso uno dei file caricati dall'utente, grazie a questa funzione viene streammato a video**|
-| `def delete_my_file()`      | **preso un file da quelli scaricati, elimina il mio file**|
-| `def download_my_file()`   | **il file dopo essere stato inviato e ricevuto, viene scaricato**|
-| `def edit_cfg()`   | **permette di modificare il file di configurazione dell'utente**|
-| `def print_welcome()`   | **printa welcome + im menù inziale**|
-| `def print_menu()`   | **printa il menù nel quale l'utente sceglie quale azione esguire**|
-| `def print_submenu_1()`   | **sottomenù relativo al menù precedente nel quale vengono illustrate le azioni**|
-| `def print_submenu_2()`   | **scegliere cosa comprimere e in che modo comprimere un file audio o video("ultrafast",...,"placebo")**|
-| `def print_submenu_streaming()`   | **streamma il sottomenù**|
-| `def center_title()`   | **restituisce il titolo**|
-| `def handle_choice_menu()`   | **restituisce la scelta fatta dall'utente**|
+| `def alter_config()`   | **permette di modificare il file di configurazione dell'utente**|
 
 ----
 
