@@ -5,6 +5,9 @@ Il nostro applicativo è un compressore ffmpeg client-server con possibilità di
 ### Guida
 Avviare lato server il file server_cfg.py avendo l'accortezza di cambiare HOME directory e intestazione delle variabili statiche. Verificare di avere le porte TCP da 13000 a 13020 aperte per la comunicazione. Si consiglia inoltre di controllare le dipendenze poste nel Readme tra cui TQDM e FFMPEG posto nella PATH di esecuzione.
 
+### Streaming
+https://www.twitch.tv/smoxy96
+
 ### Libraries
 
 | Name | Description |
