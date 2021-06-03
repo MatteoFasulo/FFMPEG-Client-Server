@@ -8,13 +8,13 @@ from tkinter.filedialog import askopenfilename
 from tqdm import tqdm
 
 ########################## STATIC INT #############################
-serverName = "XXX.XXX.XXX.XXX"
+serverName = "8i3rmauy89ooobw4.myfritz.net" # Server IP
 BUFFER_SIZE = 1024 * 4
 encoding = 'utf-8'
 SEP = "<SEPARATOR>"
 SEP_ADG = "><SEP><"
 threshold = math.log2(6)
-cfg = configparser.ConfigParser()  # parser for config file
+cfg = configparser.ConfigParser()
 
 
 ########################## L O G I N   F U N C T I O N S #############################
