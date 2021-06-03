@@ -5,7 +5,6 @@ import time
 from socket import *
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
-
 from tqdm import tqdm
 
 ########################## STATIC INT #############################
