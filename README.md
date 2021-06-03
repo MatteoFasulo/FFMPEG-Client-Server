@@ -2,10 +2,8 @@
 ### Features
 Il nostro applicativo è un compressore ffmpeg client-server con possibilità di scelta del preset di compressione. Supporta multithreading per encoding concorrenti e permette di eseguire uno streaming su piattaforme RTMP (YouTube e Twitch) previa configurazione di indirizzo e chiave. E' stato creato un sistema di registrazione utente in chiaro per poter indicizzare i file compressi nel server ed eseguire download e/o streaming dei file personali in base al preset scelto nel proprio file di configurazione utente.
 
-
-###*Referal Links*
-
-`<link>` :<https://github.com/MatteoFasulo/Calcolatori/blob/main/server_lastest.py>
+### Guida
+Avviare lato server il file server_cfg.py avendo l'accortezza di cambiare HOME directory e intestazione delle variabili statiche. Verificare di avere le porte TCP da 13000 a 13020 aperte per la comunicazione. Si consiglia inoltre di controllare le dipendenze poste nel Readme tra cui TQDM e FFMPEG posto nella PATH di esecuzione.
 
 ### Libraries
 
@@ -27,6 +25,7 @@ Il nostro applicativo è un compressore ffmpeg client-server con possibilità di
 ### Dependencies
 
 [Python 3.9.X]
+[FFMPEG]
 ---
 ### PyPi
 
@@ -79,3 +78,4 @@ $ pip install tqdm
 [Configparser]: <https://docs.python.org/3/library/configparser.html>
 [concurrent.futures]: <https://docs.python.org/3/library/concurrent.futures.html>
 [glob]: <https://docs.python.org/3/library/glob.html>
+[FFMPEG]: <https://ffmpeg.org/download.html>
