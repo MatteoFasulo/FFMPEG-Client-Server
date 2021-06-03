@@ -9,7 +9,7 @@ from tkinter.filedialog import askopenfilename
 from tqdm import tqdm
 
 ########################## STATIC INT #############################
-serverName = "elal.homepc.it"
+serverName = "XXX.XXX.XXX.XXX"
 BUFFER_SIZE = 1024 * 4
 encoding = 'utf-8'
 SEP = "<SEPARATOR>"
